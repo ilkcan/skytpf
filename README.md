@@ -41,28 +41,28 @@ $ java -jar skytpf-experiments-executor.jar distribution numberOfBindings skyTpf
 
 The experiments will provide the same results with the experiments presented in the paper on a virtual machine with 2 2.29 GHZ CPUs and 2GB of main memory.
 
-At the end of experiments, a CSV file will be created with the following columns:
-*dist*: The distribution parameter,
-*nd*: Number of dimensions,
-*ne*: Number of entities,
-*stmt*: Query processing time for SkyTPF multi-threaded version,
-*stmtnc*: Number of skyline candidates for SkyTPF multi-threaded version, 
-*stmtnr*: Number of HTTP requests for SkyTPF multi-threaded version
-*stst*: Query processing time for SkyTPF single-threaded version,
-*ststnc*: Number of skyline candidates for SkyTPF single-threaded version, 
-*ststnr*: Number of HTTP requests for SkyTPF single-threaded version,
-*brtmt*: Query processing time for brTPF multi-threaded version,
-*brtmtnc*: Number of skyline candidates for brTPF multi-threaded version, 
-*brtmtnr*: Number of HTTP requests for brTPF multi-threaded version
-*brtst*: Query processing time for brTPF single-threaded version,
-*brtstnc*: Number of skyline candidates for brTPF single-threaded version, 
-*brtstnr*: Number of HTTP requests for brTPF single-threaded version,
-*tpfmt*: Query processing time for TPF multi-threaded version,
-*tpfmtnc*: Number of skyline candidates for TPF multi-threaded version, 
-*tpfmtnr*: Number of HTTP requests for TPF multi-threaded version
-*tpfst*: Query processing time for TPF single-threaded version,
-*tpfstnc*: Number of skyline candidates for TPF single-threaded version, 
-*tpfstnr*: Number of HTTP requests for TPF single-threaded version
+At the end of experiments, a CSV file will be created with the following columns:\
+*dist*: The distribution parameter,\
+*nd*: Number of dimensions,\
+*ne*: Number of entities,\
+*stmt*: Query processing time for SkyTPF multi-threaded version,\
+*stmtnc*: Number of skyline candidates for SkyTPF multi-threaded version, \
+*stmtnr*: Number of HTTP requests for SkyTPF multi-threaded version,\
+*stst*: Query processing time for SkyTPF single-threaded version,\
+*ststnc*: Number of skyline candidates for SkyTPF single-threaded version,\ 
+*ststnr*: Number of HTTP requests for SkyTPF single-threaded version,\
+*brtmt*: Query processing time for brTPF multi-threaded version,\
+*brtmtnc*: Number of skyline candidates for brTPF multi-threaded version,\
+*brtmtnr*: Number of HTTP requests for brTPF multi-threaded version,\
+*brtst*: Query processing time for brTPF single-threaded version,\
+*brtstnc*: Number of skyline candidates for brTPF single-threaded version,\
+*brtstnr*: Number of HTTP requests for brTPF single-threaded version,\
+*tpfmt*: Query processing time for TPF multi-threaded version,\
+*tpfmtnc*: Number of skyline candidates for TPF multi-threaded version,\
+*tpfmtnr*: Number of HTTP requests for TPF multi-threaded version,\
+*tpfst*: Query processing time for TPF single-threaded version,\
+*tpfstnc*: Number of skyline candidates for TPF single-threaded version,\
+*tpfstnr*: Number of HTTP requests for TPF single-threaded version.
 
 ## Status
 SkyTPF currently supports:
