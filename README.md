@@ -49,7 +49,7 @@ At the end of experiments, a CSV file will be created with the following columns
 *stmtnc*: Number of skyline candidates for SkyTPF multi-threaded version, \
 *stmtnr*: Number of HTTP requests for SkyTPF multi-threaded version,\
 *stst*: Query processing time for SkyTPF single-threaded version,\
-*ststnc*: Number of skyline candidates for SkyTPF single-threaded version,\ 
+*ststnc*: Number of skyline candidates for SkyTPF single-threaded version,\
 *ststnr*: Number of HTTP requests for SkyTPF single-threaded version,\
 *brtmt*: Query processing time for brTPF multi-threaded version,\
 *brtmtnc*: Number of skyline candidates for brTPF multi-threaded version,\
