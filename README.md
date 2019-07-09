@@ -1,7 +1,7 @@
 # SkyTPF Server and Client
 
 This repository contains code and experiments for the ISWC'19 paper "Skyline Queries over Knowledge Graphs". 
-This is a **Java** implementation based on Jena. 
+This is a **Java** implementation. 
 
 ## Build
 Execute the following command under *server* and *client* directories to build the maven projects and create the executable jar files.
