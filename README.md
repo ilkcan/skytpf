@@ -8,17 +8,17 @@ Execute the following command under *server* and *client* directories to build t
 ```
 $ mvn package
 ```
-At the end of build process, you should have *skytpf-server.jar* file in *server/target* directory and *skytpf-experiments-executor.jar* and *skytpf-client.jar* files in *client/target* directory.
+At the end of build process, you should have `skytpf-server.jar` file in *server/target* directory and `skytpf-experiments-executor.jar` and `skytpf-client.jar` files in *client/target* directory.
 
 ## Deploy stand alone
 The server can run with Jetty from a single jar as follows:
 ```
 $ java -jar skytpf-server.jar config.json
 ```
-An example *config.json* file is provided in the *server* directory.
+An example `config.json` file is provided in the *server* directory.
 
 ## Experiments
-To get the synthetic data used in the paper, the following commands should be used in the directory that contains *skytpf-server.jar*:
+To get the synthetic data used in the paper, the following commands should be used in the directory that contains `skytpf-server.jar`:
 ```
 $ wget http://people.cs.aau.dk/~ilkcan/static/media/skyline_datasets.tar.gz
 $ tar -xvzf skyline_datasets.tar.gz 
@@ -29,7 +29,7 @@ In order to get the same results with the experiments presented in the paper, th
 ```
 $ java -Xmx8G -jar skytpf-server.jar config_experiments.json -p 6855
 ```
-*config_experiments.json* file is provided in the *server* directory.
+`config_experiments.json` file is provided in the *server* directory.
 
 In order to execute the experiments, the following command should be executed:
 ```
@@ -40,6 +40,29 @@ $ java -jar skytpf-experiments-executor.jar distribution numberOfBindings skyTpf
 **skyTpfServerURL** should be the address of the SkyTPF server started by the previous command. An example is: *http://127.0.0.1:6855/*
 
 The experiments will provide the same results with the experiments presented in the paper on a virtual machine with 2 2.29 GHZ CPUs and 2GB of main memory.
+
+At the end of experiments, a CSV file will be created with the following columns:
+*dist*: The distribution parameter,
+*nd*: Number of dimensions,
+*ne*: Number of entities,
+*stmt*: Query processing time for SkyTPF multi-threaded version,
+*stmtnc*: Number of skyline candidates for SkyTPF multi-threaded version, 
+*stmtnr*: Number of HTTP requests for SkyTPF multi-threaded version
+*stst*: Query processing time for SkyTPF single-threaded version,
+*ststnc*: Number of skyline candidates for SkyTPF single-threaded version, 
+*ststnr*: Number of HTTP requests for SkyTPF single-threaded version,
+*brtmt*: Query processing time for brTPF multi-threaded version,
+*brtmtnc*: Number of skyline candidates for brTPF multi-threaded version, 
+*brtmtnr*: Number of HTTP requests for brTPF multi-threaded version
+*brtst*: Query processing time for brTPF single-threaded version,
+*brtstnc*: Number of skyline candidates for brTPF single-threaded version, 
+*brtstnr*: Number of HTTP requests for brTPF single-threaded version,
+*tpfmt*: Query processing time for TPF multi-threaded version,
+*tpfmtnc*: Number of skyline candidates for TPF multi-threaded version, 
+*tpfmtnr*: Number of HTTP requests for TPF multi-threaded version
+*tpfst*: Query processing time for TPF single-threaded version,
+*tpfstnc*: Number of skyline candidates for TPF single-threaded version, 
+*tpfstnr*: Number of HTTP requests for TPF single-threaded version
 
 ## Status
 SkyTPF currently supports:

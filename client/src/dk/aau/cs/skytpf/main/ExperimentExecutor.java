@@ -55,8 +55,8 @@ public class ExperimentExecutor {
   private static void executeSyntheticDataExperiments(String dist, String outputFileName)
       throws IllegalArgumentException, IOException, InterruptedException, ExecutionException {
     PrintWriter outputPW = new PrintWriter(new FileWriter(new File(outputFileName)));
-    outputPW.println("dist,na,nt,hmt,hmtnc,hmtnb,hmtnr,hst,hstnc,hstnb,hstnr,cmt,cmtnc,"
-        + "cmtnb,cmtnr,cst,cstnc,cstnb,cstnr,tcmt,tcmtnc,tcmtnb,tcmtnr,tst,tstnc,tstnb,tstnr");
+    outputPW.println("dist,nd,ne,stmt,stmtnc,stmtnr,stst,ststnc,ststnr" + 
+      ",brtmt,brtmtnc,brtmtnr,brtst,brtstnc,brtstnr,tpfmt,tpfmtnc,tpfmtnr,tpfst,tpfstnc,tpfstnr");
     triplePatterns = new ArrayList<ArrayList<TriplePattern>>();
     projectionElemList = new ArrayList<List<ProjectionElem>>();
     inputs = new ArrayList<SkylineQueryInput>();
@@ -86,8 +86,8 @@ public class ExperimentExecutor {
         int hmtnb = SkylineQueryProcessor.NUMBER_OF_BINDINGS_SENT.get()
             + SkylineQueryProcessor.NUMBER_OF_BINDINGS_RECEIVED.get();
         int hmtnr = SkylineQueryProcessor.NUMBER_OF_HTTP_REQUESTS.get();
-        System.out.println("Hybrid-MT returned after " + Duration.ofMillis(hmtqpt) + " with "
-            + hmtnc + " candidates and " + numberOfSkylinesHMTQP + " skylines.");
+        /*System.out.println("Hybrid-MT returned after " + Duration.ofMillis(hmtqpt) + " with "
+            + hmtnc + " candidates and " + numberOfSkylinesHMTQP + " skylines.");*/
 
         SkylineQueryProcessor.NUMBER_OF_HTTP_REQUESTS.set(0);
         SkylineQueryProcessor.NUMBER_OF_BINDINGS_SENT.set(0);
@@ -103,8 +103,8 @@ public class ExperimentExecutor {
         int hstnb = SkylineQueryProcessor.NUMBER_OF_BINDINGS_SENT.get()
             + SkylineQueryProcessor.NUMBER_OF_BINDINGS_RECEIVED.get();
         int hstnr = SkylineQueryProcessor.NUMBER_OF_HTTP_REQUESTS.get();
-        System.out.println("Hybrid-ST returned after " + Duration.ofMillis(hstqpt) + " with "
-            + hstnc + " candidates and " + numberOfSkylinesHSTQP + " skylines.");
+        /*System.out.println("Hybrid-ST returned after " + Duration.ofMillis(hstqpt) + " with "
+            + hstnc + " candidates and " + numberOfSkylinesHSTQP + " skylines.");*/
 
         SkylineQueryProcessor.NUMBER_OF_HTTP_REQUESTS.set(0);
         SkylineQueryProcessor.NUMBER_OF_BINDINGS_SENT.set(0);
@@ -120,8 +120,8 @@ public class ExperimentExecutor {
         int cmtnb = SkylineQueryProcessor.NUMBER_OF_BINDINGS_SENT.get()
             + SkylineQueryProcessor.NUMBER_OF_BINDINGS_RECEIVED.get();
         int cmtnr = SkylineQueryProcessor.NUMBER_OF_HTTP_REQUESTS.get();
-        System.out.println("BrTPF-ClientOnly-MT returned after " + Duration.ofMillis(cmtqpt)
-            + " with " + cmtnc + " candidates and " + numberOfSkylinesCOMTQP + " skylines.");
+        /*System.out.println("BrTPF-ClientOnly-MT returned after " + Duration.ofMillis(cmtqpt)
+            + " with " + cmtnc + " candidates and " + numberOfSkylinesCOMTQP + " skylines.");*/
 
         SkylineQueryProcessor.NUMBER_OF_HTTP_REQUESTS.set(0);
         SkylineQueryProcessor.NUMBER_OF_BINDINGS_SENT.set(0);
@@ -137,8 +137,8 @@ public class ExperimentExecutor {
         int cstnb = SkylineQueryProcessor.NUMBER_OF_BINDINGS_SENT.get()
             + SkylineQueryProcessor.NUMBER_OF_BINDINGS_RECEIVED.get();
         int cstnr = SkylineQueryProcessor.NUMBER_OF_HTTP_REQUESTS.get();
-        System.out.println("BrTPF-ClientOnly-ST returned after " + Duration.ofMillis(cstqpt)
-            + " with " + cstnc + " candidates and " + numberOfSkylinesCOSTQP + " skylines.");
+        /*System.out.println("BrTPF-ClientOnly-ST returned after " + Duration.ofMillis(cstqpt)
+            + " with " + cstnc + " candidates and " + numberOfSkylinesCOSTQP + " skylines.");*/
 
         long tcmtqpt = -1;
         int tcmtnc = -1;
@@ -163,8 +163,8 @@ public class ExperimentExecutor {
           tcmtnb = SkylineQueryProcessor.NUMBER_OF_BINDINGS_SENT.get()
               + SkylineQueryProcessor.NUMBER_OF_BINDINGS_RECEIVED.get();
           tcmtnr = SkylineQueryProcessor.NUMBER_OF_HTTP_REQUESTS.get();
-          System.out.println("TPF-ClientOnly-MT returned after " + Duration.ofMillis(tcmtqpt)
-              + " with " + tcmtnc + " candidates and " + numberOfSkylinesTCOMTQP + " skylines.");
+          /*System.out.println("TPF-ClientOnly-MT returned after " + Duration.ofMillis(tcmtqpt)
+              + " with " + tcmtnc + " candidates and " + numberOfSkylinesTCOMTQP + " skylines.");*/
 
           SkylineQueryProcessor.NUMBER_OF_HTTP_REQUESTS.set(0);
           SkylineQueryProcessor.NUMBER_OF_BINDINGS_SENT.set(0);
@@ -180,10 +180,10 @@ public class ExperimentExecutor {
           tcstnb = SkylineQueryProcessor.NUMBER_OF_BINDINGS_SENT.get()
               + SkylineQueryProcessor.NUMBER_OF_BINDINGS_RECEIVED.get();
           tcstnr = SkylineQueryProcessor.NUMBER_OF_HTTP_REQUESTS.get();
-          System.out.println("TPF-ClientOnly-ST returned after " + Duration.ofMillis(tcstqpt)
-              + " with " + tcstnc + " candidates and " + numberOfSkylinesTCOSTQP + " skylines.");
+          /*System.out.println("TPF-ClientOnly-ST returned after " + Duration.ofMillis(tcstqpt)
+              + " with " + tcstnc + " candidates and " + numberOfSkylinesTCOSTQP + " skylines.");*/
         }
-        System.out.println(dist + "," + noOfAttrs + "," + nt + "," + hmtqpt + "," + hstqpt + ","
+        /*System.out.println(dist + "," + noOfAttrs + "," + nt + "," + hmtqpt + "," + hstqpt + ","
             + cmtqpt + "," + cstqpt + "," + tcmtqpt + "," + tcstqpt);
         System.out
             .println(hmtnc + "," + hstnc + "," + cmtnc + "," + cstnc + "," + tcmtnc + "," + tcstnc);
@@ -193,14 +193,12 @@ public class ExperimentExecutor {
           System.err.println(dist + ", " + noOfAttrs + ", " + nt + ", " + numberOfSkylinesHMTQP
               + ", " + numberOfSkylinesHSTQP + ", " + numberOfSkylinesCOMTQP + ", "
               + numberOfSkylinesCOSTQP);
-        }
-        outputPW.println(dist + "," + noOfAttrs + "," + nt + "," + hmtqpt + "," + hmtnc + ","
-            + hmtnb + "," + hmtnr + "," + hstqpt + "," + hstnc + "," + hstnb + "," + hstnr + ","
-            + cmtqpt + "," + cmtnc + "," + cmtnb + "," + cmtnr + "," + cstqpt + "," + cstnc + ","
-            + cstnb + "," + cstnr + "," + tcmtqpt + "," + tcmtnc + "," + tcmtnb + "," + tcmtnr + ","
-            + tcstqpt + "," + tcstnc + "," + tcstnb + "," + tcstnr);
+        }*/
+        outputPW.println(dist + "," + noOfAttrs + "," + nt + "," + hmtqpt + "," + hmtnc + "," + hmtnr + "," + 
+          hstqpt + "," + hstnc + "," + hstnr + "," + cmtqpt + "," + cmtnc + "," + cmtnr + "," + 
+          cstqpt + "," + cstnc + "," + cstnr + "," + tcmtqpt + "," + tcmtnc + "," + tcmtnr + "," + 
+          tcstqpt + "," + tcstnc + "," + tcstnr);
       }
-
     }
     outputPW.close();
   }
