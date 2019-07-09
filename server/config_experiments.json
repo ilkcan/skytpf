@@ -13,901 +13,901 @@
     },
     "datasources": {
         "ACorr_6D_10K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-6-10000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-6-10000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 6D-10K",
             "type": "HdtDatasource"
         },
         "Corr_6D_50K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-6-50000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-6-50000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 6D-50K",
             "type": "HdtDatasource"
         },
         "Ind_5D_35K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-5-35000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-5-35000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 5D-35K",
             "type": "HdtDatasource"
         },
         "Corr_3D_20K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-3-20000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-3-20000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 3D-20K",
             "type": "HdtDatasource"
         },
         "Ind_4D_50K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-4-50000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-4-50000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 4D-50K",
             "type": "HdtDatasource"
         },
         "Corr_4D_45K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-4-45000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-4-45000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 4D-45K",
             "type": "HdtDatasource"
         },
         "Ind_2D_45K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-2-45000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-2-45000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 2D-45K",
             "type": "HdtDatasource"
         },
         "Ind_4D_5K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-4-5000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-4-5000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 4D-5K",
             "type": "HdtDatasource"
         },
         "ACorr_4D_45K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-4-45000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-4-45000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 4D-45K",
             "type": "HdtDatasource"
         },
         "Corr_5D_45K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-5-45000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-5-45000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 5D-45K",
             "type": "HdtDatasource"
         },
         "Ind_6D_40K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-6-40000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-6-40000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 6D-40K",
             "type": "HdtDatasource"
         },
         "Ind_3D_10K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-3-10000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-3-10000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 3D-10K",
             "type": "HdtDatasource"
         },
         "Corr_2D_15K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-2-15000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-2-15000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 2D-15K",
             "type": "HdtDatasource"
         },
         "ACorr_5D_45K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-5-45000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-5-45000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 5D-45K",
             "type": "HdtDatasource"
         },
         "ACorr_2D_15K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-2-15000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-2-15000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 2D-15K",
             "type": "HdtDatasource"
         },
         "Ind_5D_50K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-5-50000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-5-50000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 5D-50K",
             "type": "HdtDatasource"
         },
         "Ind_2D_20K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-2-20000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-2-20000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 2D-20K",
             "type": "HdtDatasource"
         },
         "ACorr_6D_50K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-6-50000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-6-50000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 6D-50K",
             "type": "HdtDatasource"
         },
         "Corr_6D_10K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-6-10000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-6-10000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 6D-10K",
             "type": "HdtDatasource"
         },
         "Ind_4D_35K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-4-35000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-4-35000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 4D-35K",
             "type": "HdtDatasource"
         },
         "ACorr_3D_20K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-3-20000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-3-20000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 3D-20K",
             "type": "HdtDatasource"
         },
         "ACorr_3D_15K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-3-15000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-3-15000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 3D-15K",
             "type": "HdtDatasource"
         },
         "Ind_5D_40K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-5-40000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-5-40000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 5D-40K",
             "type": "HdtDatasource"
         },
         "ACorr_6D_35K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-6-35000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-6-35000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 6D-35K",
             "type": "HdtDatasource"
         },
         "ACorr_2D_30K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-2-30000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-2-30000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 2D-30K",
             "type": "HdtDatasource"
         },
         "ACorr_5D_50K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-5-50000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-5-50000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 5D-50K",
             "type": "HdtDatasource"
         },
         "Corr_2D_20K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-2-20000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-2-20000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 2D-20K",
             "type": "HdtDatasource"
         },
         "Corr_5D_20K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-5-20000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-5-20000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 5D-20K",
             "type": "HdtDatasource"
         },
         "ACorr_2D_5K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-2-5000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-2-5000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 2D-5K",
             "type": "HdtDatasource"
         },
         "Ind_6D_5K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-6-5000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-6-5000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 6D-5K",
             "type": "HdtDatasource"
         },
         "ACorr_4D_20K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-4-20000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-4-20000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 4D-20K",
             "type": "HdtDatasource"
         },
         "Ind_3D_45K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-3-45000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-3-45000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 3D-45K",
             "type": "HdtDatasource"
         },
         "ACorr_5D_10K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-5-10000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-5-10000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 5D-10K",
             "type": "HdtDatasource"
         },
         "Corr_4D_10K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-4-10000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-4-10000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 4D-10K",
             "type": "HdtDatasource"
         },
         "Ind_4D_10K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-4-10000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-4-10000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 4D-10K",
             "type": "HdtDatasource"
         },
         "Ind_6D_25K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-6-25000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-6-25000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 6D-25K",
             "type": "HdtDatasource"
         },
         "Corr_3D_45K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-3-45000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-3-45000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 3D-45K",
             "type": "HdtDatasource"
         },
         "Corr_4D_50K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-4-50000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-4-50000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 4D-50K",
             "type": "HdtDatasource"
         },
         "Corr_2D_5K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-2-5000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-2-5000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 2D-5K",
             "type": "HdtDatasource"
         },
         "Corr_6D_45K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-6-45000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-6-45000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 6D-45K",
             "type": "HdtDatasource"
         },
         "Corr_3D_30K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-3-30000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-3-30000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 3D-30K",
             "type": "HdtDatasource"
         },
         "Ind_2D_15K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-2-15000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-2-15000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 2D-15K",
             "type": "HdtDatasource"
         },
         "Ind_5D_25K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-5-25000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-5-25000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 5D-25K",
             "type": "HdtDatasource"
         },
         "Corr_4D_35K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-4-35000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-4-35000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 4D-35K",
             "type": "HdtDatasource"
         },
         "ACorr_4D_5K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-4-5000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-4-5000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 4D-5K",
             "type": "HdtDatasource"
         },
         "Corr_2D_45K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-2-45000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-2-45000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 2D-45K",
             "type": "HdtDatasource"
         },
         "ACorr_4D_35K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-4-35000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-4-35000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 4D-35K",
             "type": "HdtDatasource"
         },
         "ACorr_5D_15K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-5-15000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-5-15000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 5D-15K",
             "type": "HdtDatasource"
         },
         "Corr_5D_35K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-5-35000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-5-35000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 5D-35K",
             "type": "HdtDatasource"
         },
         "Ind_6D_50K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-6-50000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-6-50000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 6D-50K",
             "type": "HdtDatasource"
         },
         "Ind_6D_10K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-6-10000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-6-10000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 6D-10K",
             "type": "HdtDatasource"
         },
         "ACorr_2D_45K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-2-45000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-2-45000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 2D-45K",
             "type": "HdtDatasource"
         },
         "Corr_4D_5K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-4-5000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-4-5000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 4D-5K",
             "type": "HdtDatasource"
         },
         "Ind_2D_30K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-2-30000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-2-30000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 2D-30K",
             "type": "HdtDatasource"
         },
         "ACorr_3D_30K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-3-30000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-3-30000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 3D-30K",
             "type": "HdtDatasource"
         },
         "ACorr_6D_40K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-6-40000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-6-40000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 6D-40K",
             "type": "HdtDatasource"
         },
         "Corr_6D_20K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-6-20000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-6-20000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 6D-20K",
             "type": "HdtDatasource"
         },
         "Ind_4D_45K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-4-45000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-4-45000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 4D-45K",
             "type": "HdtDatasource"
         },
         "ACorr_3D_25K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-3-25000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-3-25000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 3D-25K",
             "type": "HdtDatasource"
         },
         "ACorr_6D_25K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-6-25000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-6-25000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 6D-25K",
             "type": "HdtDatasource"
         },
         "Ind_5D_30K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-5-30000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-5-30000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 5D-30K",
             "type": "HdtDatasource"
         },
         "Corr_2D_50K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-2-50000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-2-50000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 2D-50K",
             "type": "HdtDatasource"
         },
         "ACorr_2D_20K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-2-20000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-2-20000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 2D-20K",
             "type": "HdtDatasource"
         },
         "ACorr_4D_10K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-4-10000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-4-10000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 4D-10K",
             "type": "HdtDatasource"
         },
         "Corr_2D_10K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-2-10000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-2-10000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 2D-10K",
             "type": "HdtDatasource"
         },
         "ACorr_6D_5K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-6-5000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-6-5000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 6D-5K",
             "type": "HdtDatasource"
         },
         "Ind_3D_50K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-3-50000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-3-50000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 3D-50K",
             "type": "HdtDatasource"
         },
         "Corr_5D_50K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-5-50000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-5-50000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 5D-50K",
             "type": "HdtDatasource"
         },
         "ACorr_4D_50K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-4-50000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-4-50000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 4D-50K",
             "type": "HdtDatasource"
         },
         "Corr_5D_10K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-5-10000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-5-10000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 5D-10K",
             "type": "HdtDatasource"
         },
         "Corr_6D_5K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-6-5000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-6-5000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 6D-5K",
             "type": "HdtDatasource"
         },
         "Ind_2D_5K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-2-5000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-2-5000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 2D-5K",
             "type": "HdtDatasource"
         },
         "Ind_3D_35K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-3-35000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-3-35000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 3D-35K",
             "type": "HdtDatasource"
         },
         "Ind_6D_35K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-6-35000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-6-35000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 6D-35K",
             "type": "HdtDatasource"
         },
         "ACorr_5D_20K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-5-20000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-5-20000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 5D-20K",
             "type": "HdtDatasource"
         },
         "Ind_4D_20K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-4-20000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-4-20000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 4D-20K",
             "type": "HdtDatasource"
         },
         "Corr_4D_40K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-4-40000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-4-40000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 4D-40K",
             "type": "HdtDatasource"
         },
         "Corr_6D_15K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-6-15000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-6-15000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 6D-15K",
             "type": "HdtDatasource"
         },
         "Corr_3D_15K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-3-15000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-3-15000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 3D-15K",
             "type": "HdtDatasource"
         },
         "Ind_2D_25K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-2-25000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-2-25000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 2D-25K",
             "type": "HdtDatasource"
         },
         "ACorr_6D_30K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-6-30000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-6-30000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 6D-30K",
             "type": "HdtDatasource"
         },
         "Corr_6D_30K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-6-30000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-6-30000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 6D-30K",
             "type": "HdtDatasource"
         },
         "Corr_4D_25K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-4-25000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-4-25000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 4D-25K",
             "type": "HdtDatasource"
         },
         "Corr_3D_40K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-3-40000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-3-40000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 3D-40K",
             "type": "HdtDatasource"
         },
         "ACorr_4D_25K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-4-25000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-4-25000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 4D-25K",
             "type": "HdtDatasource"
         },
         "Ind_5D_15K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-5-15000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-5-15000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 5D-15K",
             "type": "HdtDatasource"
         },
         "Corr_2D_35K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-2-35000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-2-35000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 2D-35K",
             "type": "HdtDatasource"
         },
         "ACorr_5D_25K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-5-25000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-5-25000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 5D-25K",
             "type": "HdtDatasource"
         },
         "Ind_6D_20K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-6-20000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-6-20000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 6D-20K",
             "type": "HdtDatasource"
         },
         "Corr_5D_25K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-5-25000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-5-25000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 5D-25K",
             "type": "HdtDatasource"
         },
         "ACorr_2D_35K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-2-35000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-2-35000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 2D-35K",
             "type": "HdtDatasource"
         },
         "Ind_2D_40K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-2-40000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-2-40000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 2D-40K",
             "type": "HdtDatasource"
         },
         "Ind_4D_15K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-4-15000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-4-15000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 4D-15K",
             "type": "HdtDatasource"
         },
         "ACorr_3D_40K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-3-40000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-3-40000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 3D-40K",
             "type": "HdtDatasource"
         },
         "Ind_5D_5K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-5-5000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-5-5000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 5D-5K",
             "type": "HdtDatasource"
         },
         "ACorr_3D_35K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-3-35000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-3-35000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 3D-35K",
             "type": "HdtDatasource"
         },
         "Ind_5D_20K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-5-20000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-5-20000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 5D-20K",
             "type": "HdtDatasource"
         },
         "ACorr_6D_15K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-6-15000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-6-15000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 6D-15K",
             "type": "HdtDatasource"
         },
         "ACorr_2D_10K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-2-10000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-2-10000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 2D-10K",
             "type": "HdtDatasource"
         },
         "ACorr_5D_30K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-5-30000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-5-30000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 5D-30K",
             "type": "HdtDatasource"
         },
         "Corr_2D_40K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-2-40000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-2-40000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 2D-40K",
             "type": "HdtDatasource"
         },
         "ACorr_2D_50K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-2-50000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-2-50000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 2D-50K",
             "type": "HdtDatasource"
         },
         "Corr_3D_5K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-3-5000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-3-5000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 3D-5K",
             "type": "HdtDatasource"
         },
         "Ind_3D_40K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-3-40000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-3-40000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 3D-40K",
             "type": "HdtDatasource"
         },
         "Corr_5D_40K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-5-40000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-5-40000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 5D-40K",
             "type": "HdtDatasource"
         },
         "ACorr_4D_40K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-4-40000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-4-40000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 4D-40K",
             "type": "HdtDatasource"
         },
         "Ind_3D_25K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-3-25000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-3-25000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 3D-25K",
             "type": "HdtDatasource"
         },
         "Ind_6D_45K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-6-45000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-6-45000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 6D-45K",
             "type": "HdtDatasource"
         },
         "Corr_6D_25K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-6-25000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-6-25000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 6D-25K",
             "type": "HdtDatasource"
         },
         "Corr_4D_30K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-4-30000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-4-30000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 4D-30K",
             "type": "HdtDatasource"
         },
         "Ind_4D_30K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-4-30000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-4-30000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 4D-30K",
             "type": "HdtDatasource"
         },
         "Corr_3D_25K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-3-25000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-3-25000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 3D-25K",
             "type": "HdtDatasource"
         },
         "Corr_3D_10K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-3-10000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-3-10000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 3D-10K",
             "type": "HdtDatasource"
         },
         "ACorr_6D_20K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-6-20000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-6-20000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 6D-20K",
             "type": "HdtDatasource"
         },
         "Corr_4D_15K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-4-15000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-4-15000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 4D-15K",
             "type": "HdtDatasource"
         },
         "Corr_6D_40K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-6-40000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-6-40000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 6D-40K",
             "type": "HdtDatasource"
         },
         "Ind_5D_45K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-5-45000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-5-45000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 5D-45K",
             "type": "HdtDatasource"
         },
         "Ind_4D_40K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-4-40000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-4-40000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 4D-40K",
             "type": "HdtDatasource"
         },
         "Corr_3D_50K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-3-50000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-3-50000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 3D-50K",
             "type": "HdtDatasource"
         },
         "Ind_2D_35K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-2-35000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-2-35000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 2D-35K",
             "type": "HdtDatasource"
         },
         "ACorr_4D_15K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-4-15000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-4-15000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 4D-15K",
             "type": "HdtDatasource"
         },
         "Corr_5D_5K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-5-5000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-5-5000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 5D-5K",
             "type": "HdtDatasource"
         },
         "Corr_2D_25K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-2-25000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-2-25000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 2D-25K",
             "type": "HdtDatasource"
         },
         "Ind_3D_20K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-3-20000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-3-20000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 3D-20K",
             "type": "HdtDatasource"
         },
         "ACorr_5D_35K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-5-35000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-5-35000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 5D-35K",
             "type": "HdtDatasource"
         },
         "Ind_6D_30K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-6-30000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-6-30000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 6D-30K",
             "type": "HdtDatasource"
         },
         "ACorr_2D_25K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-2-25000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-2-25000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 2D-25K",
             "type": "HdtDatasource"
         },
         "Corr_5D_15K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-5-15000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-5-15000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 5D-15K",
             "type": "HdtDatasource"
         },
         "Ind_2D_50K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-2-50000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-2-50000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 2D-50K",
             "type": "HdtDatasource"
         },
         "ACorr_3D_50K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-3-50000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-3-50000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 3D-50K",
             "type": "HdtDatasource"
         },
         "Ind_4D_25K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-4-25000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-4-25000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 4D-25K",
             "type": "HdtDatasource"
         },
         "ACorr_3D_10K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-3-10000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-3-10000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 3D-10K",
             "type": "HdtDatasource"
         },
         "ACorr_3D_5K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-3-5000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-3-5000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 3D-5K",
             "type": "HdtDatasource"
         },
         "ACorr_3D_45K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-3-45000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-3-45000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 3D-45K",
             "type": "HdtDatasource"
         },
         "Ind_2D_10K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-2-10000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-2-10000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 2D-10K",
             "type": "HdtDatasource"
         },
         "Ind_5D_10K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-5-10000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-5-10000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 5D-10K",
             "type": "HdtDatasource"
         },
         "ACorr_6D_45K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-6-45000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-6-45000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 6D-45K",
             "type": "HdtDatasource"
         },
         "ACorr_5D_40K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-5-40000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-5-40000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 5D-40K",
             "type": "HdtDatasource"
         },
         "Corr_2D_30K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-2-30000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-2-30000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 2D-30K",
             "type": "HdtDatasource"
         },
         "Corr_5D_30K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-5-30000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-5-30000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 5D-30K",
             "type": "HdtDatasource"
         },
         "ACorr_2D_40K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-2-40000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-2-40000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 2D-40K",
             "type": "HdtDatasource"
         },
         "Ind_3D_30K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-3-30000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-3-30000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 3D-30K",
             "type": "HdtDatasource"
         },
         "ACorr_4D_30K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-4-30000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-4-30000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 4D-30K",
             "type": "HdtDatasource"
         },
         "Ind_3D_15K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-3-15000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-3-15000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 3D-15K",
             "type": "HdtDatasource"
         },
         "Ind_6D_15K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-6-15000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-6-15000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 6D-15K",
             "type": "HdtDatasource"
         },
         "Corr_4D_20K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-4-20000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-4-20000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 4D-20K",
             "type": "HdtDatasource"
         },
         "Corr_6D_35K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-6-35000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-6-35000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 6D-35K",
             "type": "HdtDatasource"
         },
         "Ind_3D_5K": {
-            "settings": {"file": "../skyline_datasets/ind_hdt/i-3-5000.hdt"},
+            "settings": {"file": "skyline_datasets/ind_hdt/i-3-5000.hdt"},
             "description": "Ind dataset with an HDT back-end",
             "title": "Ind 3D-5K",
             "type": "HdtDatasource"
         },
         "Corr_3D_35K": {
-            "settings": {"file": "../skyline_datasets/corr_hdt/c-3-35000.hdt"},
+            "settings": {"file": "skyline_datasets/corr_hdt/c-3-35000.hdt"},
             "description": "Corr dataset with an HDT back-end",
             "title": "Corr 3D-35K",
             "type": "HdtDatasource"
         },
         "ACorr_5D_5K": {
-            "settings": {"file": "../skyline_datasets/anti_corr_hdt/a-5-5000.hdt"},
+            "settings": {"file": "skyline_datasets/anti_corr_hdt/a-5-5000.hdt"},
             "description": "ACorr dataset with an HDT back-end",
             "title": "ACorr 5D-5K",
             "type": "HdtDatasource"
