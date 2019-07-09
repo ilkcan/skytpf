@@ -35,8 +35,8 @@ In order to execute the experiments, the following command should be executed:
 ```
 $ java -jar skytpf-experiments-executor.jar distribution numberOfBindings skyTpfServerURL
 ``` 
-**distribution** parameter should be one of the following options: *ACorr* (dataset with anti-correlated distribution), *Corr* (dataset with correlated distribution), *Ind* (dataset with independent distribution). To get results for all the experiments, this command should be executed three times for all possible values of **distribution** paramneter.
-**numberOfBindings** parameter is set to 30 for our experiments as suggested by Hartig et al in [the BrTPF paper][https://link.springer.com/chapter/10.1007%2F978-3-319-48472-3_48].
+**distribution** parameter should be one of the following options: *ACorr* (dataset with anti-correlated distribution), *Corr* (dataset with correlated distribution), *Ind* (dataset with independent distribution). To get results for all the experiments, this command should be executed three times for all possible values of **distribution** parameter.
+**numberOfBindings** parameter is set to 30 for our experiments as suggested by Hartig et al in [the BrTPF paper](https://link.springer.com/chapter/10.1007%2F978-3-319-48472-3_48).
 **skyTpfServerURL** should be the address of the SkyTPF server started by the previous command. An example is: *http://127.0.0.1:6855/*
 
 The experiments will provide the same results with the experiments presented in the paper on a virtual machine with 2 2.29 GHZ CPUs and 2GB of main memory.
