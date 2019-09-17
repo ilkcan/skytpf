@@ -27,7 +27,7 @@
         </developer>
     </developers>
     <properties>
-        <jettyVersion>9.4.9.v20180320</jettyVersion>
+        <jettyVersion>9.4.20.v20190813</jettyVersion>
     </properties>
     <dependencies>
         <dependency>
