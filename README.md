@@ -2,8 +2,8 @@
 This repository contains code and experiments for the ISWC'19 paper "Skyline Queries over Knowledge Graphs". 
 
 ## System Requirements
-In order to be able to build SkyTPF, you need to have the following software installed:\
-- mvn: We tested with the version 3.5.4,\
+In order to be able to build SkyTPF, you need to have the following software installed:
+- mvn: We tested with the version 3.5.4,
 - java: version 8 at least.
 - hdt-jena: SkyTPF requires the 2.1-SNAPSHOT version of hdt-jena library and unfortunately, this library is not part of the Maven central repository. For this reason, you need to install this maven dependency to your local maven repository. In order to do that you should execute the following commands:
 
