@@ -41,9 +41,9 @@ public class HdtSkyTPFWorkerWithoutSorting extends AbstractSkyTPFWorker<RDFNode,
    */
   private NodeDictionary dictionary;
 
-  private HashMap<Integer, HashMap<Integer, Integer>> predicateSubjectRanks;
-  private HashMap<Integer, Integer[]> predicateSubjectsSorted;
-  private HashMap<Integer, HashSet<Integer>> predicateSubjects;
+  private HashMap<Long, HashMap<Long, Integer>> predicateSubjectRanks;
+  private HashMap<Long, Long[]> predicateSubjectsSorted;
+  private HashMap<Long, HashSet<Long>> predicateSubjects;
 
   /**
    * Create Hdt BrTPF Worker
@@ -55,9 +55,9 @@ public class HdtSkyTPFWorkerWithoutSorting extends AbstractSkyTPFWorker<RDFNode,
   }
 
   public void setDatasourceAndDictionary(HDT datasource, NodeDictionary dictionary,
-      HashMap<Integer, HashMap<Integer, Integer>> predicateSubjectRanks,
-      HashMap<Integer, Integer[]> predicateSubjectsSorted,
-      HashMap<Integer, HashSet<Integer>> predicateSubjects) {
+      HashMap<Long, HashMap<Long, Integer>> predicateSubjectRanks,
+      HashMap<Long, Long[]> predicateSubjectsSorted,
+      HashMap<Long, HashSet<Long>> predicateSubjects) {
     this.datasource = datasource;
     this.dictionary = dictionary;
     this.predicateSubjectRanks = predicateSubjectRanks;
@@ -97,17 +97,17 @@ public class HdtSkyTPFWorkerWithoutSorting extends AbstractSkyTPFWorker<RDFNode,
     }
 
     final TripleID pivotTID = pivotIterator.next();
-    int predicateId = predicate.isVariable() ? 0
+    long predicateId = predicate.isVariable() ? 0
         : dictionary.getIntID(predicate.asConstantTerm().asNode(), TripleComponentRole.PREDICATE);
 
     if (predicateId < 0) {
       return createEmptyTriplePatternFragment();
     }
-    HashSet<Integer> currPredicateSubjects = predicateSubjects.get(predicateId);
-    ArrayList<Integer> sBindings = new ArrayList<Integer>();
+    HashSet<Long> currPredicateSubjects = predicateSubjects.get(predicateId);
+    ArrayList<Long> sBindings = new ArrayList<Long>();
     for (Binding solutionMap : bindings) {
       final Node s = solutionMap.get(Var.alloc(subject.asNamedVariable()));
-      int currSubjID = dictionary.getIntID(s, TripleComponentRole.SUBJECT);
+      long currSubjID = dictionary.getIntID(s, TripleComponentRole.SUBJECT);
       if (currPredicateSubjects.contains(currSubjID)) {
         sBindings.add(currSubjID);
       }
@@ -115,17 +115,17 @@ public class HdtSkyTPFWorkerWithoutSorting extends AbstractSkyTPFWorker<RDFNode,
     final Model triples = ModelFactory.createDefaultModel();
     int triplesCheckedSoFar = 0;
     int triplesAddedInCurrentPage = 0;
-    HashMap<Integer, Integer> sortRanks = predicateSubjectRanks.get(predicateId);
+    HashMap<Long, Integer> sortRanks = predicateSubjectRanks.get(predicateId);
     int pivotRank = sortRanks.get(pivotTID.getSubject());
     boolean atOffset;
-    for (int currSubjID : sBindings) {
+    for (long currSubjID : sBindings) {
       final TripleID t = new TripleID(currSubjID, predicateId, 0);
       final IteratorTripleID matches = datasource.getTriples().search(t);
       if (matches.hasNext()) {
         matches.goToStart();
         while (!(atOffset = (triplesCheckedSoFar == offset)) && matches.hasNext()) {
           TripleID currTripleId = matches.next();
-          int currSubjectId = currTripleId.getSubject();
+          long currSubjectId = currTripleId.getSubject();
           int currSubjectRank = sortRanks.get(currSubjectId);
           if (currSubjectRank == pivotRank) {
             triplesCheckedSoFar++;
@@ -142,7 +142,7 @@ public class HdtSkyTPFWorkerWithoutSorting extends AbstractSkyTPFWorker<RDFNode,
         if (atOffset) {
           while (triplesAddedInCurrentPage < limit && matches.hasNext()) {
             TripleID currTripleId = matches.next();
-            int currSubjectId = currTripleId.getSubject();
+            long currSubjectId = currTripleId.getSubject();
             int currSubjectRank = sortRanks.get(currSubjectId);
             if (currSubjectRank == pivotRank) {
               triples.add(triples.asStatement(Utils.toTriple(dictionary, currTripleId)));
@@ -186,20 +186,20 @@ public class HdtSkyTPFWorkerWithoutSorting extends AbstractSkyTPFWorker<RDFNode,
       ITriplePatternElement<RDFNode, String, String> predicate,
       ITriplePatternElement<RDFNode, String, String> object,
       SkylinePrefFunc skylinePreferenceFunction, long offset, long limit) {
-    int predicateId = predicate.isVariable() ? 0
+    long predicateId = predicate.isVariable() ? 0
         : dictionary.getIntID(predicate.asConstantTerm().asNode(), TripleComponentRole.PREDICATE);
     int offsetIdx = (int) offset;
     int limitInt = (int) limit;
     if (predicateId < 0) {
       return createEmptyTriplePatternFragment();
     }
-    Integer[] allSubjectIdsSorted = predicateSubjectsSorted.get(predicateId);
-    Integer[] subjectIds;
+    Long[] allSubjectIdsSorted = predicateSubjectsSorted.get(predicateId);
+    Long[] subjectIds;
 
     if (skylinePreferenceFunction == SkylinePrefFunc.MAX) {
       subjectIds = Arrays.copyOfRange(allSubjectIdsSorted, offsetIdx, offsetIdx + limitInt);
     } else {
-      subjectIds = new Integer[limitInt];
+      subjectIds = new Long[limitInt];
       int endIdx = allSubjectIdsSorted.length - offsetIdx - 1;
       int startIdx = endIdx - limitInt;
       if (startIdx < 0) {
@@ -212,7 +212,7 @@ public class HdtSkyTPFWorkerWithoutSorting extends AbstractSkyTPFWorker<RDFNode,
 
     final Model triples = ModelFactory.createDefaultModel();
     if (subjectIds != null) {
-      for (int subjectId : subjectIds) {
+      for (long subjectId : subjectIds) {
         IteratorTripleID matches =
             datasource.getTriples().search(new TripleID(subjectId, predicateId, 0));
         if (matches.hasNext()) {

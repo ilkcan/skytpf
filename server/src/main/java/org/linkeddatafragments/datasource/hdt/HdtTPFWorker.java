@@ -65,11 +65,11 @@ public class HdtTPFWorker extends AbstractTPFWorker<RDFNode, String, String> {
     // see https://github.com/LinkedDataFragments/Server.Java/issues/23
 
     // look up the result from the HDT datasource)
-    int subjectId = subject.isVariable() ? 0
+    long subjectId = subject.isVariable() ? 0
         : dictionary.getIntID(subject.asConstantTerm().asNode(), TripleComponentRole.SUBJECT);
-    int predicateId = predicate.isVariable() ? 0
+    long predicateId = predicate.isVariable() ? 0
         : dictionary.getIntID(predicate.asConstantTerm().asNode(), TripleComponentRole.PREDICATE);
-    int objectId = object.isVariable() ? 0
+    long objectId = object.isVariable() ? 0
         : dictionary.getIntID(object.asConstantTerm().asNode(), TripleComponentRole.OBJECT);
 
     if (subjectId < 0 || predicateId < 0 || objectId < 0) {

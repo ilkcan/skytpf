@@ -26,7 +26,7 @@ public class TripleIDProducingIterator implements Iterator<TripleID> {
   private final List<List<Node>> pBindings = new ArrayList<List<Node>>();
   private final List<List<List<Node>>> oBindings = new ArrayList<List<List<Node>>>();
 
-  private int curSubjID, curPredID, curObjID;
+  private long curSubjID, curPredID, curObjID;
   private int curSubjIdx, curPredIdx, curObjIdx;
   private List<Node> curPredBindings;
   private List<Node> curObjBindings;

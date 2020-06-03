@@ -1,6 +1,7 @@
 # Eclipse
 .classpath
 .settings/
+.project
 
 # Intellij
 .idea/

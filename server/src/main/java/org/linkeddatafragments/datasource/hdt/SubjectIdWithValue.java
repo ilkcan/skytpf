@@ -8,19 +8,19 @@ package org.linkeddatafragments.datasource.hdt;
  *
  */
 public class SubjectIdWithValue {
-  private int subjectId;
+  private long subjectId;
   private float value;
 
   /**
    * @param statement
    * @param tripleId
    */
-  public SubjectIdWithValue(int subjectId, float value) {
+  public SubjectIdWithValue(long subjectId, float value) {
     this.subjectId = subjectId;
     this.value = value;
   }
 
-  public int getSubjectId() {
+  public long getSubjectId() {
     return subjectId;
   }
 
